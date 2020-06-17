@@ -8,9 +8,11 @@
 
 import UIKit
 
-class AARISRG2ViewController: UIViewController {
+class ARRISRG2ViewController: UIViewController {
     @IBOutlet weak var RGIPLabel: UILabel!
     @IBOutlet weak var SubnetMaskLabel: UILabel!
+    @IBOutlet weak var DHCPStartLabel: UILabel!
+    @IBOutlet weak var DHCPEndLabel: UILabel!
     
     //Declare Variables
     var IPO1 = ""
@@ -25,6 +27,8 @@ class AARISRG2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        DHCPStartLabel.text = "\(IPO1).\(IPO2).\(IPO3).\(FUIPO4)"
+        DHCPEndLabel.text = "\(IPO1).\(IPO2).\(IPO3).\(LUIPO4)"
         RGIPLabel.text = "\(IPO1).\(IPO2).\(IPO3).\(RGIPO4)"
         SubnetMaskLabel.text = "\(SubnetMask)"
         // Do any additional setup after loading the view.

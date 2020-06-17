@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F4C8770A205F51CA007461E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C87709205F51CA007461E6 /* AppDelegate.swift */; };
-		F4C8770C205F51CA007461E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C8770B205F51CA007461E6 /* ViewController.swift */; };
+		F4C8770C205F51CA007461E6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C8770B205F51CA007461E6 /* MainViewController.swift */; };
 		F4C8770F205F51CA007461E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C8770D205F51CA007461E6 /* Main.storyboard */; };
 		F4C87712205F51CA007461E6 /* Static_IP_Trainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4C87710205F51CA007461E6 /* Static_IP_Trainer.xcdatamodeld */; };
 		F4C87714205F51CA007461E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C87713205F51CA007461E6 /* Assets.xcassets */; };
 		F4C87717205F51CA007461E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C87715205F51CA007461E6 /* LaunchScreen.storyboard */; };
+		F4CE823C2063440B001AD97B /* ARRISRG1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE823B2063440B001AD97B /* ARRISRG1ViewController.swift */; };
+		F4CE823E20634416001AD97B /* ARRISRG2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE823D20634416001AD97B /* ARRISRG2ViewController.swift */; };
+		F4E7363A206054600097EE39 /* SelectRGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E73639206054600097EE39 /* SelectRGViewController.swift */; };
+		F4E7365D206094280097EE39 /* PaceRG1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E7365C206094280097EE39 /* PaceRG1ViewController.swift */; };
+		F4E7365F2060946F0097EE39 /* PaceRG2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E7365E2060946F0097EE39 /* PaceRG2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4C87706205F51CA007461E6 /* Static IP Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Static IP Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C87709205F51CA007461E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4C8770B205F51CA007461E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4C8770B205F51CA007461E6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F4C8770E205F51CA007461E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4C87711205F51CA007461E6 /* Static_IP_Trainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Static_IP_Trainer.xcdatamodel; sourceTree = "<group>"; };
 		F4C87713205F51CA007461E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C87716205F51CA007461E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C87718205F51CB007461E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CE823B2063440B001AD97B /* ARRISRG1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARRISRG1ViewController.swift; sourceTree = "<group>"; };
+		F4CE823D20634416001AD97B /* ARRISRG2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARRISRG2ViewController.swift; sourceTree = "<group>"; };
+		F4E73639206054600097EE39 /* SelectRGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRGViewController.swift; sourceTree = "<group>"; };
+		F4E7365C206094280097EE39 /* PaceRG1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceRG1ViewController.swift; sourceTree = "<group>"; };
+		F4E7365E2060946F0097EE39 /* PaceRG2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceRG2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				F4C87709205F51CA007461E6 /* AppDelegate.swift */,
-				F4C8770B205F51CA007461E6 /* ViewController.swift */,
+				F4C8770B205F51CA007461E6 /* MainViewController.swift */,
+				F4E73639206054600097EE39 /* SelectRGViewController.swift */,
+				F4E7365C206094280097EE39 /* PaceRG1ViewController.swift */,
+				F4CE823B2063440B001AD97B /* ARRISRG1ViewController.swift */,
+				F4E7365E2060946F0097EE39 /* PaceRG2ViewController.swift */,
+				F4CE823D20634416001AD97B /* ARRISRG2ViewController.swift */,
 				F4C8770D205F51CA007461E6 /* Main.storyboard */,
 				F4C87713205F51CA007461E6 /* Assets.xcassets */,
 				F4C87715205F51CA007461E6 /* LaunchScreen.storyboard */,
@@ -94,11 +109,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Justin Kumpe";
 				TargetAttributes = {
 					F4C87705205F51CA007461E6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1140;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C8770C205F51CA007461E6 /* ViewController.swift in Sources */,
+				F4C8770C205F51CA007461E6 /* MainViewController.swift in Sources */,
+				F4CE823E20634416001AD97B /* ARRISRG2ViewController.swift in Sources */,
+				F4E7365F2060946F0097EE39 /* PaceRG2ViewController.swift in Sources */,
 				F4C87712205F51CA007461E6 /* Static_IP_Trainer.xcdatamodeld in Sources */,
 				F4C8770A205F51CA007461E6 /* AppDelegate.swift in Sources */,
+				F4E7365D206094280097EE39 /* PaceRG1ViewController.swift in Sources */,
+				F4E7363A206054600097EE39 /* SelectRGViewController.swift in Sources */,
+				F4CE823C2063440B001AD97B /* ARRISRG1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +202,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +210,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -215,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,6 +261,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +269,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -266,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -279,12 +304,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13.0.0.2;
 				DEVELOPMENT_TEAM = 2T42Z3DM34;
 				INFOPLIST_FILE = "Static IP Trainer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kumpeapps.ios.Static-IP-Trainer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -294,12 +322,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13.0.0.2;
 				DEVELOPMENT_TEAM = 2T42Z3DM34;
 				INFOPLIST_FILE = "Static IP Trainer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kumpeapps.ios.Static-IP-Trainer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

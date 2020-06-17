@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AARISRG1ViewController: UIViewController {
+class ARRISRG1ViewController: UIViewController {
 
     //Declare Variables
     var IPO1 = ""

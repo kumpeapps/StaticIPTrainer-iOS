@@ -9,27 +9,27 @@
 import UIKit
 
 class PaceRG2ViewController: UIViewController {
-
+    @IBOutlet weak var RGIPLabel: UILabel!
+    @IBOutlet weak var SubnetMaskLabel: UILabel!
+    
+    //Declare Variables
+    var IPO1 = ""
+    var IPO2 = ""
+    var IPO3 = ""
+    var FUIPO4 = ""
+    var LUIPO4 = ""
+    var RGIPO4 = ""
+    var SubnetMask = ""
+    var PrimaryDNS = ""
+    var SecondaryDNS = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        RGIPLabel.text = "\(IPO1).\(IPO2).\(IPO3).\(RGIPO4)"
+        SubnetMaskLabel.text = "\(SubnetMask)"
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

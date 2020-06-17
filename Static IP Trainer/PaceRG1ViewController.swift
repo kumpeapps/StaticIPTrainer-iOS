@@ -10,26 +10,43 @@ import UIKit
 
 class PaceRG1ViewController: UIViewController {
 
+    //Declare Variables
+    var IPO1 = ""
+    var IPO2 = ""
+    var IPO3 = ""
+    var FUIPO4 = ""
+    var LUIPO4 = ""
+    var RGIPO4 = ""
+    var SubnetMask = ""
+    var PrimaryDNS = ""
+    var SecondaryDNS = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func NextButtonPressed(_ sender: Any) {
+    performSegue(withIdentifier: "PaceRG2", sender: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    //Set Variables to send to Select RG during segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "PaceRG2" {
+            let SegueViewController = segue.destination as! PaceRG2ViewController
+            SegueViewController.IPO1 = self.IPO1
+            SegueViewController.IPO2 = self.IPO2
+            SegueViewController.IPO3 = self.IPO3
+            SegueViewController.FUIPO4 = self.FUIPO4
+            SegueViewController.LUIPO4 = self.LUIPO4
+            SegueViewController.RGIPO4 = self.RGIPO4
+            SegueViewController.SubnetMask = self.SubnetMask
+            SegueViewController.PrimaryDNS = self.PrimaryDNS
+            SegueViewController.SecondaryDNS = self.SecondaryDNS
+            
+        }
     }
-    */
+
 
 }
