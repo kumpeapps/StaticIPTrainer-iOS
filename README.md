@@ -1,7 +1,7 @@
 # StaticIPTrainer-iOS
 
 ## Screenshots
-| Home Screen: Idle | 
+| Home Screen| 
 | ----------------- | 
 | ![HomeScreen.PNG](screenshots/HomeScreen.PNG) | 
 
