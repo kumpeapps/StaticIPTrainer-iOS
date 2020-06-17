@@ -1,3 +1,6 @@
+<p align="center"><a href="https://itunes.apple.com/app/githawk-for-github/id1252320249"><img src="images/app-store-badge.png" width="250" /></a></p>
+
+
 # StaticIPTrainer-iOS
 
 ## Screenshots
