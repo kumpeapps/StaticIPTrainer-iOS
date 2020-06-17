@@ -1,4 +1,5 @@
-# StaticIPTrainer-iOS
+# UV Static IP Trainer
+	Walks you thru calculating and programing public static IP addresses on a UV Residential Gateway
 
 ## Screenshots
 | PACE RG| |||
